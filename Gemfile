@@ -23,6 +23,8 @@ group :development, :test do
   gem 'omniauth-google-oauth2', git: 'https://github.com/zquestz/omniauth-google-oauth2'
   gem 'rack-cors', require: 'rack/cors'
   gem 'thor'
+  gem 'net-http'
+  gem 'faraday-retry'
 
   # testing
   # gem 'spring'
